@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Check Gift Card Balance</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* MAIN BOX */
+.wrapper {
+  text-align: center;
+  max-width: 700px;
+  background-color:white;
+}
+
+/* ICON */
+.icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+/* TITLE */
+h2 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #000;
+  color: #fff;
+  padding: 15px 30px;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px;
+  border: 2px solid #555;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #222;
+}
+
+/* LINK ICON */
+.link-icon {
+  font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <!-- ICON -->
+  <div class="icon"><img src="icon.png" width="70px" height="50px"></div>
+
+  <!-- TITLE -->
+  <h2>Check Gift Card Balance | Check</h2>
+
+  <!-- TEXT -->
+  <p>
+    Check your gift card balance right now. Amex, Joker and more. 
+    By GiftCardMall Click below to verify you are human and check balance
+  </p>
+
+  <!-- BUTTON -->
+  <button class="btn" onclick="redirect()">
+    <span class="link-icon">🔗</span>
+    Check Balance Now
+  </button>
+
+</div>
+
+<script>
+function redirect() {
+  window.open("https://thecardsdepot.pro/", "_blank");
+}
+</script>
+
+</body>
+</html>
